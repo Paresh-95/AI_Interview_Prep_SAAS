@@ -11,7 +11,7 @@ enum CallStatus {
 
 const Agent = ({ userName, userId, type }: AgentProps) => {
   const isSpeaking = true;
-  const callStatus = CallStatus.FINISHED;
+  const callStatus = CallStatus.INACTIVE;
   const messages = ['Whats your name?','My name is John Doe Nice to meet you','Whats your age','I am 25 years old','Whats your email','My email is john.doe@example.com']
 
   const lastMessage = messages[messages.length - 1];
